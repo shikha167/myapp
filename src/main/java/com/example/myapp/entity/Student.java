@@ -17,7 +17,6 @@ public class Student {
     private String lastName;
     @Column(name="email")
     private String email;
-
     // define constructor
     public Student(){}
 

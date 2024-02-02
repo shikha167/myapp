@@ -59,7 +59,6 @@ public class MyappApplication {
 		//display id of the saved student
 		int sid = rstd.getId();
 		System.out.println("display id student....." + sid);
-
 		//read student based on id PK
 		System.out.println("save student.....by ID PK");
 		Student mystd = studentDAO.findById(sid);

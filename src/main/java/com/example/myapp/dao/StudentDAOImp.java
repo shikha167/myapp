@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 public class StudentDAOImp implements StudentDAO{
-
     //define field for entity manager
     private EntityManager entityManager; //help to red,delete write operation
 
