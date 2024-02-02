@@ -18,7 +18,6 @@ public class Student {
     @Column(name="email")
     private String email;
 
-
     // define constructor
     public Student(){}
 
